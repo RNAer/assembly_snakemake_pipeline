@@ -1,0 +1,9 @@
+DATA_ROOT: "/projects/nexteraxt/pipeline_test/data/"
+GROUPS: ["nextera" , "truseq"]
+SAMPLES: ["sample1" , "sample2"]
+SUB_READ_CNT: 1000000
+TMP_DIR_ROOT: "/localscratch"
+SEQTK: "/home/snurk/soft/seqtk/seqtk"
+CUTADAPT_PRX: "/home/snurk/.local/bin/cutadapt --trim-n -q 20 -a XXX"
+SPADES: "/home/snurk/soft/spades_3.8.2/bin/spades.py"
+QUAST_DIR: "/home/snurk/soft/quast-4.1"
